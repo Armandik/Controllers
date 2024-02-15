@@ -1,0 +1,59 @@
+{
+  "manufacturer": "Armandik",
+    "keyboard_name": "Armando24",
+    "maintainer": "Armandik",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+	"usb": {
+		"vid": "0xBB80",
+		"pid": "0x0504",
+		"device_version": "0.0.1"
+	  },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+  "matrix_pins": {
+        "direct": [
+            ["GP0", "GP1", "GP2", "GP3", "GP20", "GP21", "GP22", "GP26"],
+            ["GP4", "GP5", "GP6", "GP7", "GP16", "GP17", "GP18", "GP19"],
+			["GP8", "GP9", "GP10", "GP11", "GP12", "GP13", "GP14", "GP15"]
+        ]
+    },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {"matrix": [0, 0], "x": 0, "y": 0},
+        {"matrix": [0, 1], "x": 1, "y": 0},
+        {"matrix": [0, 2], "x": 2, "y": 0},
+        {"matrix": [0, 3], "x": 3, "y": 0},
+        {"matrix": [0, 4], "x": 4, "y": 0},
+		{"matrix": [0, 5], "x": 5, "y": 0},
+		{"matrix": [0, 6], "x": 6, "y": 0},
+		{"matrix": [0, 7], "x": 7, "y": 0},
+		
+		{"matrix": [1, 0], "x": 0, "y": 1},
+        {"matrix": [1, 1], "x": 1, "y": 1},
+        {"matrix": [1, 2], "x": 2, "y": 1},
+        {"matrix": [1, 3], "x": 3, "y": 1},
+        {"matrix": [1, 4], "x": 4, "y": 1},
+		{"matrix": [1, 5], "x": 5, "y": 1},
+		{"matrix": [1, 6], "x": 6, "y": 1},
+		{"matrix": [1, 7], "x": 7, "y": 1},
+		
+		{"matrix": [2, 0], "x": 0, "y": 2},
+        {"matrix": [2, 1], "x": 1, "y": 2},
+        {"matrix": [2, 2], "x": 2, "y": 2},
+        {"matrix": [2, 3], "x": 3, "y": 2},
+        {"matrix": [2, 4], "x": 4, "y": 2},
+		{"matrix": [2, 5], "x": 5, "y": 2},
+		{"matrix": [2, 6], "x": 6, "y": 2},
+		{"matrix": [2, 7], "x": 7, "y": 2}
+      ]
+    }
+  }
+}
